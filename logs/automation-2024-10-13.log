@@ -1,0 +1,49 @@
+21:11:56:156 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:11:56:181 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:11:56:182 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:11:56:184 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:11:56:242 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:11:56:243 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:11:56:244 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:11:56:265 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:11:56:268 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:11:56:269 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:11:56:366 [main] INFO  testCase.TC003_LoginDDT - ********** Starting TC003_LoginDDT **********
+21:12:03:057 [main] INFO  testCase.TC003_LoginDDT - ********** Finished TC003_LoginDDT **********
+21:12:03:081 [main] INFO  testCase.TC003_LoginDDT - ********** Starting TC003_LoginDDT **********
+21:12:14:929 [main] INFO  testCase.TC003_LoginDDT - ********** Finished TC003_LoginDDT **********
+21:12:14:935 [main] INFO  testCase.TC003_LoginDDT - ********** Starting TC003_LoginDDT **********
+21:12:26:497 [main] INFO  testCase.TC003_LoginDDT - ********** Finished TC003_LoginDDT **********
+21:12:26:510 [main] INFO  testCase.TC003_LoginDDT - ********** Starting TC003_LoginDDT **********
+21:13:22:301 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml"
+21:13:22:736 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml
+
+21:13:45:015 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+21:13:46:025 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+21:13:50:196 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+21:13:54:854 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+21:13:54:984 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+21:14:15:560 [main] INFO  testCase.TC002_LoginTest - ********** Starting TC002_LoginTest **********
+21:14:20:323 [main] INFO  testCase.TC002_LoginTest - ********** Finished TC002_LoginTest **********
+21:15:33:526 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml"
+21:15:33:967 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml
+
+21:15:52:757 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+21:15:55:165 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+21:16:00:865 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+21:16:04:933 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+21:16:05:052 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+21:16:23:783 [main] INFO  testCase.TC002_LoginTest - ********** Starting TC002_LoginTest **********
+21:16:29:961 [main] INFO  testCase.TC002_LoginTest - ********** Finished TC002_LoginTest **********
+21:20:25:012 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml"
+21:20:25:472 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml
+
+21:20:43:860 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+21:20:45:506 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+21:20:48:594 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+21:20:53:106 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+21:20:53:226 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+21:21:10:052 [main] INFO  testCase.TC002_LoginTest - ********** Starting TC002_LoginTest **********

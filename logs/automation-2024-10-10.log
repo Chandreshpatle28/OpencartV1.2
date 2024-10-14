@@ -1,0 +1,51 @@
+16:25:30:646 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/testng.xml"
+16:25:31:227 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/testng.xml
+
+16:25:46:626 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:25:47:352 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:25:49:759 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:25:52:881 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:25:52:958 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:26:33:736 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/testng.xml"
+16:26:34:126 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/testng.xml
+
+16:27:11:045 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:27:11:378 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:27:11:961 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:27:13:299 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:27:13:330 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:30:25:365 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/crossbrowsertestng.xml"
+16:30:25:779 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/crossbrowsertestng.xml
+
+16:30:38:834 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:30:39:713 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:30:42:012 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:30:45:427 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:30:45:539 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:30:54:621 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:30:54:919 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:30:55:498 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:30:56:940 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:30:56:968 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:32:24:248 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:32:25:116 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:32:27:645 [main] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:32:33:574 [main] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:32:33:705 [main] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:33:41:355 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/crossbrowsertestng.xml"
+16:33:41:923 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/crossbrowsertestng.xml
+
+16:33:54:786 [TestNG-tests-2] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:33:56:293 [TestNG-tests-2] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:33:58:320 [TestNG-tests-2] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:34:01:656 [TestNG-tests-2] INFO  testCase.TC001_AccountRegistrationTest - Validation expected message..
+16:34:02:095 [TestNG-tests-2] INFO  testCase.TC001_AccountRegistrationTest - ********** Finished TC001_AccountRegistrationTest **********
+16:34:03:716 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:34:06:621 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+16:34:08:426 [TestNG-tests-3] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+16:34:11:214 [TestNG-tests-1] INFO  testCase.TC001_AccountRegistrationTest - Clicked on Register Link
+16:34:11:472 [TestNG-tests-3] INFO  testCase.TC001_AccountRegistrationTest - Clicked on MyAccount Link

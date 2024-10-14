@@ -1,0 +1,23 @@
+21:21:14:954 [main] INFO  testCase.TC002_LoginTest - ********** Finished TC002_LoginTest **********
+12:21:53:622 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml"
+12:21:54:183 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
+
+12:21:54:515 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+12:23:51:890 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml"
+12:23:52:311 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
+
+12:23:52:591 [main] INFO  testCase.TC001_AccountRegistrationTest - ******* Starting TC001_AccountRegistrationTest *******
+12:25:03:340 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml"
+12:25:03:841 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
+
+12:26:07:395 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml"
+12:26:07:822 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
+
+12:28:09:585 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml"
+12:28:10:012 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
+
