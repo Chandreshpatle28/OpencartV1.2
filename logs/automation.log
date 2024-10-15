@@ -21,3 +21,5 @@
 12:28:10:012 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/grid-docker.xml
 
+10:21:01:050 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml"
+10:44:33:124 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/master.xml"

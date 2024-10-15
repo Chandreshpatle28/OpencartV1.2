@@ -1,0 +1,12 @@
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/pageObjects/AccountRegistrationPage.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/pageObjects/BasePage.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/pageObjects/HomePage.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/pageObjects/LoginPage.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/pageObjects/MyAccountPage.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/testBase/BaseClass.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/testCase/TC001_AccountRegistrationTest.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/testCase/TC002_LoginTest.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/testCase/TC003_LoginDDT.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/utilites/DataProviders.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/utilites/ExcelUtility.java
+/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/src/test/java/utilites/ExtentReportManager.java

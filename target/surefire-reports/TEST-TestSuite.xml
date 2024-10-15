@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="7.458" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/test-classes:/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/classes:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.25.0/selenium-java-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.25.0/selenium-api-4.25.0.jar:/Users/chandresh/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.25.0/selenium-chrome-driver-4.25.0.jar:/Users/chandresh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.25.0/selenium-chromium-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.25.0/selenium-json-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.25.0/selenium-manager-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.25.0/selenium-devtools-v127-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.25.0/selenium-devtools-v128-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.25.0/selenium-devtools-v129-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.25.0/selenium-devtools-v85-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.25.0/selenium-edge-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.25.0/selenium-firefox-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.25.0/selenium-http-4.25.0.jar:/Users/chandresh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.25.0/selenium-ie-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.25.0/selenium-remote-driver-4.25.0.jar:/Users/chandresh/.m2/repository/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.jar:/Users/chandresh/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/chandresh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/chandresh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/chandresh/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/chandresh/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/chandresh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/chandresh/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.42.1/opentelemetry-exporter-logging-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/Users/chandresh/.m2/repository/net/bytebuddy/byte-buddy/1.15.1/byte-buddy-1.15.1.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.25.0/selenium-os-4.25.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.25.0/selenium-safari-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.25.0/selenium-support-4.25.0.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi/5.3.0/poi-5.3.0.jar:/Users/chandresh/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/chandresh/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi-ooxml-lite/5.3.0/poi-ooxml-lite-5.3.0.jar:/Users/chandresh/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/chandresh/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-beta2/log4j-api-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/3.0.0-beta2/log4j-slf4j2-impl-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/chandresh/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chandresh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chandresh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chandresh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chandresh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/chandresh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chandresh/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chandresh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chandresh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/chandresh/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar:/Users/chandresh/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/Users/chandresh/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/surefire/surefirebooter-20241015104430755_3.jar /Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/surefire 2024-10-15T10-44-30_504-jvmRun1 surefire-20241015104430755_1tmp surefire_0-20241015104430755_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/test-classes:/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/classes:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.25.0/selenium-java-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.25.0/selenium-api-4.25.0.jar:/Users/chandresh/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.25.0/selenium-chrome-driver-4.25.0.jar:/Users/chandresh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.25.0/selenium-chromium-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.25.0/selenium-json-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.25.0/selenium-manager-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.25.0/selenium-devtools-v127-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.25.0/selenium-devtools-v128-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.25.0/selenium-devtools-v129-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.25.0/selenium-devtools-v85-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.25.0/selenium-edge-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.25.0/selenium-firefox-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.25.0/selenium-http-4.25.0.jar:/Users/chandresh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.25.0/selenium-ie-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.25.0/selenium-remote-driver-4.25.0.jar:/Users/chandresh/.m2/repository/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.jar:/Users/chandresh/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/chandresh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/chandresh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/chandresh/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/chandresh/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/chandresh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/chandresh/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.42.1/opentelemetry-exporter-logging-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/Users/chandresh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/Users/chandresh/.m2/repository/net/bytebuddy/byte-buddy/1.15.1/byte-buddy-1.15.1.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.25.0/selenium-os-4.25.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.25.0/selenium-safari-driver-4.25.0.jar:/Users/chandresh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.25.0/selenium-support-4.25.0.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi/5.3.0/poi-5.3.0.jar:/Users/chandresh/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/chandresh/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar:/Users/chandresh/.m2/repository/org/apache/poi/poi-ooxml-lite/5.3.0/poi-ooxml-lite-5.3.0.jar:/Users/chandresh/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.1/xmlbeans-5.2.1.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/chandresh/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-core/3.0.0-beta2/log4j-core-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-plugins/3.0.0-beta2/log4j-plugins-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-api/3.0.0-beta2/log4j-api-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/3.0.0-beta2/log4j-slf4j2-impl-3.0.0-beta2.jar:/Users/chandresh/.m2/repository/org/slf4j/slf4j-api/2.0.10/slf4j-api-2.0.10.jar:/Users/chandresh/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chandresh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chandresh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chandresh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chandresh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/chandresh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chandresh/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chandresh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chandresh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/chandresh/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/chandresh/.m2/repository/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar:/Users/chandresh/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/Users/chandresh/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/chandresh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2/target/surefire/surefirebooter-20241015104430755_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="chandresh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="15.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/chandresh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="/var/folders/_d/9y7b0nkd4678yry6mh_6xxvm0000gn/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/chandresh/Documents/QA Testing/seleniumwebdriver/OpencartV1.2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/chandresh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="setup[Windows, chrome](0)" classname="testCase.TC001_AccountRegistrationTest" time="3.054">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;CHANDRESHs-MacBook-Air.local&apos;, ip: &apos;2402:b00:12:300f:7058:9bb6:d8ca:a832%en0&apos;&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]&#10;Capabilities {browserName: chrome, platformName: Windows 11}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CHANDRESHs-MacBook-Air.local', ip: '2402:b00:12:300f:7058:9bb6:d8ca:a832%en0'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]
+Capabilities {browserName: chrome, platformName: Windows 11}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+	at testBase.BaseClass.setup(BaseClass.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 32 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1069)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
+]]></failure>
+    <system-err><![CDATA[Oct 15, 2024 10:44:33 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="verify_account_registration" classname="testCase.TC001_AccountRegistrationTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;CHANDRESHs-MacBook-Air.local&apos;, ip: &apos;2402:b00:12:300f:7058:9bb6:d8ca:a832%en0&apos;&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]&#10;Capabilities {browserName: chrome, platformName: Windows 11}"/>
+  </testcase>
+  <testcase name="tearDown" classname="testCase.TC001_AccountRegistrationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup[Windows, chrome](0)" classname="testCase.TC002_LoginTest" time="0.04">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;CHANDRESHs-MacBook-Air.local&apos;, ip: &apos;2402:b00:12:300f:7058:9bb6:d8ca:a832%en0&apos;&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]&#10;Capabilities {browserName: chrome, platformName: Windows 11}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CHANDRESHs-MacBook-Air.local', ip: '2402:b00:12:300f:7058:9bb6:d8ca:a832%en0'
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]
+Capabilities {browserName: chrome, platformName: Windows 11}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
+	at testBase.BaseClass.setup(BaseClass.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 32 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1069)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
+]]></failure>
+  </testcase>
+  <testcase name="verify_login" classname="testCase.TC002_LoginTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;CHANDRESHs-MacBook-Air.local&apos;, ip: &apos;2402:b00:12:300f:7058:9bb6:d8ca:a832%en0&apos;&#10;Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: Windows 11}]}]&#10;Capabilities {browserName: chrome, platformName: Windows 11}"/>
+  </testcase>
+  <testcase name="tearDown" classname="testCase.TC002_LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+</testsuite>
